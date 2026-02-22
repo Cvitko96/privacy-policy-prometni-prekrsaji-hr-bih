@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Politika privatnosti – Prometni prekršaji HR/BiH</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #F8FAFC;
+      color: #0F172A;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 40px 20px 80px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 32px;
+      border-bottom: 1px solid #E2E8F0;
+    }
+
+    .app-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 72px;
+      height: 72px;
+      background: #EFF6FF;
+      border-radius: 20px;
+      font-size: 36px;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      font-size: 26px;
+      font-weight: 800;
+      color: #1A56DB;
+      margin-bottom: 4px;
+    }
+
+    .app-name {
+      font-size: 15px;
+      color: #475569;
+      margin-bottom: 8px;
+    }
+
+    .last-updated {
+      font-size: 13px;
+      color: #94A3B8;
+    }
+
+    .intro-box {
+      background: #EFF6FF;
+      border-left: 4px solid #1A56DB;
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin-bottom: 32px;
+      font-size: 15px;
+      color: #334155;
+    }
+
+    .intro-box strong { color: #0F172A; }
+
+    section {
+      margin-bottom: 32px;
+    }
+
+    h2 {
+      font-size: 17px;
+      font-weight: 700;
+      color: #0F172A;
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #E2E8F0;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    }
+
+    p {
+      font-size: 15px;
+      color: #475569;
+      margin-bottom: 12px;
+    }
+
+    p:last-child { margin-bottom: 0; }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 12px 0;
+    }
+
+    ul li {
+      font-size: 15px;
+      color: #475569;
+      padding: 4px 0 4px 20px;
+      position: relative;
+    }
+
+    ul li::before {
+      content: '';
+      position: absolute;
+      left: 4px;
+      top: 12px;
+      width: 7px;
+      height: 7px;
+      background: #1A56DB;
+      border-radius: 50%;
+    }
+
+    strong { color: #0F172A; }
+
+    .tag {
+      display: inline-block;
+      background: #F1F5F9;
+      border-radius: 6px;
+      padding: 2px 8px;
+      font-size: 13px;
+      font-family: monospace;
+      color: #334155;
+    }
+
+    a {
+      color: #1A56DB;
+      text-decoration: none;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    .divider {
+      height: 1px;
+      background: #E2E8F0;
+      margin: 16px 0;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 48px;
+      font-size: 13px;
+      color: #94A3B8;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <div class="app-icon">🚗</div>
+      <h1>Politika privatnosti</h1>
+      <div class="app-name">Prometni prekršaji HR/BiH</div>
+      <div class="last-updated">Zadnje ažuriranje: 22. veljače 2026.</div>
+    </header>
+
+    <div class="intro-box">
+      Ova politika privatnosti opisuje kako aplikacija
+      <strong>Prometni prekršaji HR/BiH</strong> postupa s podacima korisnika.
+      Cijenimo vašu privatnost i nastojimo biti transparentni u pogledu
+      prikupljanja podataka.
+    </div>
+
+    <!-- 1 -->
+    <section>
+      <h2>1. Podatci koje aplikacija prikuplja</h2>
+      <div class="card">
+        <p>
+          Aplikacija <strong>sama ne prikuplja, ne pohranjuje niti ne prenosi</strong>
+          nikakve osobne podatke na vanjske poslužitelje.
+        </p>
+        <div class="divider"></div>
+        <p><strong>Lokalno pohranjeni podatci (samo na uređaju):</strong></p>
+        <ul>
+          <li>
+            <strong>Status pretplate</strong> — informacija je li korisnik kupio
+            uklanjanje reklama (pohranjena lokalno na uređaju, korištenjem
+            <span class="tag">AsyncStorage</span>).
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 2 -->
+    <section>
+      <h2>2. Treće strane – Google AdMob</h2>
+      <div class="card">
+        <p>
+          Aplikacija prikazuje oglase putem usluge <strong>Google AdMob</strong>.
+          AdMob može prikupljati određene podatke radi prikazivanja relevantnih
+          oglasa, uključujući:
+        </p>
+        <ul>
+          <li>Identifikator reklamiranja (Advertising ID)</li>
+          <li>Informacije o uređaju (model, OS verzija)</li>
+          <li>IP adresu i približnu lokaciju</li>
+          <li>Podatke o korištenju aplikacije</li>
+        </ul>
+        <div class="divider"></div>
+        <p>
+          Svi oglasi prikazuju se uz postavljenu zastavicu
+          <span class="tag">requestNonPersonalizedAdsOnly</span>, što znači da se
+          zahtijevaju samo <strong>nepersonalizirani oglasi</strong>.
+        </p>
+        <div class="divider"></div>
+        <p>
+          🔗 <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">
+            Googelova politika privatnosti
+          </a>
+          &nbsp;|&nbsp;
+          <a href="https://support.google.com/ads/answer/2662922" target="_blank" rel="noopener">
+            Isključivanje personaliziranih oglasa
+          </a>
+        </p>
+      </div>
+    </section>
+
+    <!-- 3 -->
+    <section>
+      <h2>3. Kupnje u aplikaciji (Google Play)</h2>
+      <div class="card">
+        <p>
+          Opcijska jednokratna kupnja <strong>"Ukloni reklame"</strong> obrađuje se
+          isključivo putem <strong>Google Play Billing</strong>. Aplikacija ne prima
+          niti pohranjuje podatke o platnoj kartici ili financijske podatke korisnika.
+        </p>
+        <div class="divider"></div>
+        <p>
+          🔗 <a href="https://play.google.com/about/play-terms/" target="_blank" rel="noopener">
+            Google Play uvjeti korištenja
+          </a>
+        </p>
+      </div>
+    </section>
+
+    <!-- 4 -->
+    <section>
+      <h2>4. Djeca</h2>
+      <div class="card">
+        <p>
+          Aplikacija nije namijenjena djeci mlađoj od 13 godina. Ne prikupljamo
+          svjesno podatke od djece.
+        </p>
+      </div>
+    </section>
+
+    <!-- 5 -->
+    <section>
+      <h2>5. Sigurnost podataka</h2>
+      <div class="card">
+        <p>
+          Budući da aplikacija ne prenosi osobne podatke na naše poslužitelje,
+          rizik od neovlaštenog pristupa podacima s naše strane je minimalan.
+          Preporučujemo korištenje ažuriranog operacijskog sustava i sigurnosnih
+          zakrpa na uređaju.
+        </p>
+      </div>
+    </section>
+
+    <!-- 6 -->
+    <section>
+      <h2>6. Promjene politike privatnosti</h2>
+      <div class="card">
+        <p>
+          Ovu politiku privatnosti možemo povremeno ažurirati. O značajnim
+          promjenama obavijestit ćemo vas putem ažuriranja aplikacije.
+          Nastavljanjem korištenja aplikacije prihvaćate ažuriranu politiku.
+        </p>
+      </div>
+    </section>
+
+    <!-- 7 -->
+    <section>
+      <h2>7. Kontakt</h2>
+      <div class="card">
+        <p>Za pitanja ili zahtjeve u vezi s privatnošću možete nas kontaktirati:</p>
+        <p>
+          📧 <a href="mailto:prometni.prekrsaji.app@gmail.com">
+            prometni.prekrsaji.app@gmail.com
+          </a>
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      © 2026 Prometni prekršaji HR/BiH · Sve aplikacijske informacije su informativne naravi
+    </footer>
+
+  </div>
+</body>
+</html>
